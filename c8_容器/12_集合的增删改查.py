@@ -22,11 +22,10 @@ re = s2.pop()
 print(re)
 
 # 改 没有下标，改的话只能投机取巧。remove + add 组和
-
-# 查
 s2.remove(66)
 s2.add(90)
 
+# 查
 # 输出结果：True
 print(30 in s2)
 # 输出结果：True
